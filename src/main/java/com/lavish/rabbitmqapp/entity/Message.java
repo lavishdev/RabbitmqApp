@@ -13,7 +13,7 @@ import java.time.LocalDateTime;
 @NoArgsConstructor
 @Builder
 public class Message {
-    private Long id;
+    private String id;
     private String type;
     private String recipient;
     private String subject;
